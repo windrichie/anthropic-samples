@@ -53,7 +53,7 @@ def call_llm(parameters, prompt):
 
 # set model params
 model_params = {
-    "model": "claude-2",
+    "model": DEFAULT_MODEL,
     "temperature": 0,
     "max_tokens_to_sample": 128
 }
